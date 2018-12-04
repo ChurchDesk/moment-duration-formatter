@@ -1,4 +1,4 @@
-const momentDurationFormatter = require('../index');
+const momentDurationFormatter = require('../dist/index');
 const moment = require('moment');
 const expect = require('unexpected');
 
