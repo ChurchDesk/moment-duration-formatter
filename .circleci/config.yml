@@ -4,6 +4,8 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:8
+        environment:
+          - TZ=/usr/share/zoneinfo/Europe/Copenhagen
     working_directory: ~/repo
 
     steps:
