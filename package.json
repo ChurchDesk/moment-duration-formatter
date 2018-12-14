@@ -1,9 +1,8 @@
 {
   "name": "moment-duration-formatter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Helps format dates for events etc.",
   "main": "dist/index.js",
-  "module": "index.js",
   "scripts": {
     "test": "mocha --timeout=10000 --exit tests/*.test.js",
     "build": "webpack --config webpack.config.js"
